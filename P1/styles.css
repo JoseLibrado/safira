@@ -1,0 +1,27 @@
+.contenedor-ds {
+    margin: 50px auto 0 auto;
+    width: 50%;
+    background-color: orange;
+    border-radius: 5px;
+    box-shadow: 1px 5px 3px;
+    padding: 20px;
+    /* text-align: center; */
+    
+}
+.valores, .gestor{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;    
+    flex-direction: column;
+    padding: 20px;
+}
+.valores form {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+}
+.gestor .deuda {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
